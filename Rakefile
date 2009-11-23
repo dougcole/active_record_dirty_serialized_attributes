@@ -5,8 +5,8 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "active_record_dirty_serialized_attributes"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{Optimizes ActiveRecord for fewer writes when you have serialized attributes}
+    gem.description = %Q{Optimizes ActiveRecord for fewer writes when you have serialized attributes by modifying the Dirty module to handle them more carefully.  This is a trade off of front-end cpu time for database writes.}
     gem.email = "dougcole@gmail.com"
     gem.homepage = "http://github.com/dougcole/active_record_dirty_serialized_attributes"
     gem.authors = ["Doug Cole"]
